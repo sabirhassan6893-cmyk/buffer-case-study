@@ -1,29 +1,64 @@
-# Buffer — a time-adaptive airport navigation experience
+# Buffer
 
-Design case study for **Buffer**, an airport wayfinding concept whose interface compresses as the time left before boarding shrinks.
+A scroll-driven design case study for **Buffer**, a time-adaptive airport navigation experience.
 
-**Interactive prototype:** https://buffer-prototype.lovable.app
+The idea is simple: airports don't change, time does.
+As the time left before boarding shrinks, the interface compresses, from a full map you can browse freely down to one instruction that gets you to the gate.
 
-## What's inside
+## Why I built this
 
-- `index.html`: the whole case study (layout, copy, styles and scroll animations) in one file.
-- `screens/`: app screenshots for the four time states (Comfortable, Constrained, Tight, Critical).
+I built this as an AI-assisted coding project to present a product case study as a living, interactive page instead of static slides or Figma frames.
 
-## The four time states
+As a Product Designer, I have mostly told stories through design files and decks. Here I wanted the presentation itself to behave like the product: the page reacts to scroll the way Buffer reacts to time, so the reader feels the buffer shrinking instead of just reading about it.
 
-| State | Buffer | Interface |
-|---|---|---|
-| Comfortable | 40+ min | Full map, nearby places, browsing is safe |
-| Constrained | 25–40 min | Next step leads; only stops on the way |
-| Tight | 10–25 min | Route and live countdown only |
-| Critical | under 10 min | One instruction, full screen |
+The concept is about time, and the page had to feel like it.
 
-## Run locally
+## What it explores
 
-It's a static page with no build step. Open `index.html`, or serve the folder:
+- A time-adaptive interface with four states: Comfortable, Constrained, Tight and Critical
+- Progressive compression instead of alerts and notifications
+- Scroll-driven storytelling, with sections that pin while the story plays out
+- Motion that explains an idea: a countdown clock, a narrowing eye, a draining battery
+- Real app screens placed inside phone mock-ups for each state
+- A split-flap departures-board splash and a quiet flight-map backdrop
+- Responsive layouts for desktop and mobile
+- Accessibility checks on contrast, headings and reduced motion
+- AI-assisted prototyping, from design idea to working browser experience
 
-```bash
-python3 -m http.server 8000
-```
+## What I learned
 
-Animations use [GSAP](https://gsap.com) and ScrollTrigger from cdnjs; fonts load from Google Fonts. Both need an internet connection.
+This project helped me understand that a case study page needs as many product and design decisions as the product itself:
+
+- How much should a page hold the reader in place before it feels slow?
+- When does motion explain an idea, and when does it just decorate?
+- How do you show four states of an interface without repeating yourself?
+- How should text and visuals hand over to each other while scrolling?
+- What changes when the same story has to work on a phone?
+- How do you keep animation readable for people who prefer reduced motion?
+
+It also helped me get more comfortable using AI as a coding partner, not to replace design thinking, but to quickly test ideas, compare variants and learn implementation patterns.
+
+## Tech used
+
+- HTML
+- CSS
+- JavaScript
+- GSAP and ScrollTrigger
+- AI-assisted coding
+
+## Live demo
+
+Interactive prototype: https://buffer-prototype.lovable.app
+
+## Current status
+
+This is a design case study for the MVP exploration of Buffer.
+The goal was to communicate the adaptive experience framework and its four time states, not to present a finished production product.
+
+## About me
+
+I am a Senior Product Designer exploring AI-assisted prototyping, interaction design, and frontend implementation.
+
+Portfolio: https://sabirhassan.framer.website
+
+LinkedIn: https://linkedin.com/in/sabirhassan
