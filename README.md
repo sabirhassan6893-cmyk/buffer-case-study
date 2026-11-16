@@ -2,7 +2,6 @@
 
 Design case study for **Buffer**, an airport wayfinding concept whose interface compresses as the time left before boarding shrinks.
 
-**Live site:** https://buffer-case-study.vercel.app
 **Interactive prototype:** https://buffer-prototype.lovable.app
 
 ## What's inside
